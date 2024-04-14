@@ -1,0 +1,28 @@
+--------------------	RFC TF-IDF	--------------------
+              precision    recall  f1-score   support
+
+           0       0.49      0.09      0.15       221
+           1       0.88      0.71      0.79       142
+           2       0.72      0.42      0.53       180
+
+Accuracy Score: 75.2%
+
+--------------------	RFC CT-VEC	--------------------
+              precision    recall  f1-score   support
+
+           0       0.52      0.11      0.19       221
+           1       0.90      0.71      0.80       142
+           2       0.74      0.39      0.51       180
+
+Accuracy Score: 75.7%
+
+--------------------	LSTM	--------------------
+              precision    recall  f1-score   support
+
+           0       0.38      0.30      0.34       221
+           1       0.92      0.73      0.82       142
+           2       0.53      0.52      0.53       180
+
+Accuracy Score: 72.3%
+
+0 - Mild	1 - Moderate	2 - Severe
